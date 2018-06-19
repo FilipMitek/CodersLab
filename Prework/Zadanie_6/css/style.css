@@ -1,0 +1,17 @@
+body {
+    background-color:steelblue;
+}
+#FirstPharagraph{
+    color: greenyellow;
+}
+#SecondPharagraph{
+    color:darkorchid;
+}
+
+.Pharagraph{
+    color: saddlebrown;
+}
+
+.Paczka{
+border: 2px;
+}
