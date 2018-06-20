@@ -1,0 +1,75 @@
+#Container1{
+    background-color: gray;
+    position: absolute;
+    height: 50px;
+    width: 50px;
+
+}
+#Container2{
+   background-color: darkslategray;
+    position: absolute;
+    left: 80px;
+    height: 50px;
+    width: 50px;
+}
+p{
+    position: absolute;
+    top: 50px;
+    left: 8px;
+    
+}
+#FirstWord{
+    color:red;
+}
+#SecondWord{
+    color:blue;
+}
+#ThirdWord{
+    color:green;
+}
+#FirstDiv{
+    position: absolute;
+    top: 85px;
+    margin-top: 5px;
+    color: #009933 ;
+    color: rgba(255,123,222,.25)
+}
+#SecondDiv{
+    position: absolute;
+    top:100px;
+    margin-top: 5px;
+    color: #99CC66 ;
+    color:rgba(255,0,123,.20);
+}
+.hslacolor{
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    top: 150px;
+    background-color: hsla(120,100%,0%,1);
+}
+#Paragrafy{
+    position: absolute;
+    top: 250px;;
+    width: 380px;
+    height: 280px;
+    background-color: gray;
+}
+#FirstParagraph{
+    position: absolute;
+    left: 105px;
+   margin-top: -40px;
+    color: red;
+    padding: 5px;
+    background-color: antiquewhite;
+    width: 50%;
+    
+    
+}
+#SecondParagraph{
+    margin-top: -40px;
+    color: green;
+    padding: 5px;
+    background-color: burlywood;
+    width: 20%;
+}
