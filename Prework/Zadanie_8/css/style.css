@@ -1,0 +1,57 @@
+div{
+    width: 30px;
+    height: 30px;
+    
+}
+#header{
+    height: 100px;
+    width: 500px;
+}
+#box1{
+    background-color: red;
+    position: absolute ;
+    left: 10px;  
+    margin-top: 20px
+    }
+
+#box2{
+    background-color: dimgray;
+    position: absolute;
+    right: 10px;
+    margin-top: 20px;
+    }
+   
+.klasa{
+    height: 40px;
+    width: 70px;
+    border: 1px solid;
+    text-align: center;
+    line-height: 40px;
+    
+ }
+#Par1{
+      position: absolute;
+      left: 200px;
+   
+    
+}
+#Par2{
+     position: absolute;
+     left: 280px;
+}
+#tekst{
+    text-align: center;
+    margin-left: 10px;
+    padding:10px;
+    width: 600px;
+    height: 250px
+
+
+}
+#Lorem{
+  
+    color: darkgray;
+    font-family:sans-serif;
+    border-style: dashed;
+    
+}
