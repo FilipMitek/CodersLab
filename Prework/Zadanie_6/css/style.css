@@ -1,6 +1,7 @@
 body {
     background-color:steelblue;
 }
+
 #FirstPharagraph{
     color: greenyellow;
 }
@@ -8,10 +9,12 @@ body {
     color:darkorchid;
 }
 
-.Pharagraph{
+p.Pharagraph{
     color: saddlebrown;
 }
 
 .Paczka{
-border: 2px;
+    border: 200px;
+    border-color: black;
+    font-size: 20px;
 }
