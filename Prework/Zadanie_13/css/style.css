@@ -1,0 +1,36 @@
+#Naglowki{
+    background-color:darkblue;
+    color: white;
+    font-weight: bold;
+    
+}
+
+#pierwszy{
+    border-color: black;
+    border: 1px  ;
+    border-style: dashed;
+}
+#second{
+    border-color: black;
+    border: 1px;
+    border-style: dotted;
+}
+#third{
+    border-color: darkmagenta;
+    border: 11px;
+    border-style:groove;
+}
+#fourth{
+    border-color: red;
+    border: 12px;
+    border-style:ridge;
+}
+#fifth{
+    border-color: green;
+    border: 10px;
+    border-style:outset;
+}
+
+#together{
+    border-collapse: collapse;
+}
