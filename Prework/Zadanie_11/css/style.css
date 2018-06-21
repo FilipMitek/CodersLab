@@ -1,0 +1,24 @@
+/* BODY */
+
+#container{
+  background-color:rgba(212,228,239,0.98);
+
+    /*Uzywając atrybutu opacity nadajemy efekt przezroczystości dla całego bloku div wraz z tekstem natomiast używając formatu rgba ustawiamy przezroczystość tła*/ 
+}
+
+#container2{
+    background-image: url("../image/background.jpg");
+    height: 300px;
+    width: 453px;
+    position: absolute;
+}
+#container3{
+    background-image: url("../image/Abstract-Dry-Grass-Against-The-Sun.jpg");
+    height: 200px;
+    width: 100%;
+    position: absolute;
+    top: 500px;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
