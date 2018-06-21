@@ -1,0 +1,25 @@
+.tekst{
+    width: 500px;
+}
+#title{
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    background-color: #ACC4CE;
+    text-shadow: #878787;
+    width: 95%;
+    height: 25px;
+    font-family: Verdana;
+}
+#subtitle{
+    font-style: italic;
+    color: #395075;
+    font-family: Arial;
+    letter-spacing: 10px;       
+}
+#article{
+    color: grey;
+    font-size: 14px;
+    line-height: 20px;
+    text-indent: 20px;
+}
