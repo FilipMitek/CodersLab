@@ -1,0 +1,20 @@
+ul{
+    color: #116493;
+    list-style-type: none;
+}
+#start{
+    position: absolute;
+}
+#about{
+    position: absolute;
+    left: 115px;
+}
+#galery{
+    position: absolute;
+    left: 185px;
+}
+#contact{
+    position: absolute;
+    left: 280px;
+}
+
