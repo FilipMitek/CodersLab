@@ -65,18 +65,15 @@ for ( var i = 0; i<=10; i++){
 var size = 5;
 var size2 = 1;
 var line = " ";
+var numberLine = " ";
 
 for (var i = 0;i<size;i++){
     line = " ";
-
-    for (var j=0;j<size2;j++){
-         line = line + "* " 
-        for(var x=0;x<size;x++){
+        for (var j=0;j<size2;j++){
            
+               line = line + "* " 
         }
-    
-    }
-    
+       
     if(size2<5){
         size2++ ;
     }
@@ -85,5 +82,3 @@ for (var i = 0;i<size;i++){
     console.log("");
     console.log(line);
 }
-
-// Zadanie 9
