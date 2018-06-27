@@ -1,4 +1,4 @@
-/*// Zadanie 1
+// Zadanie 1
 
 var firstTaskArray = [5,3,6];
 
@@ -65,24 +65,25 @@ for(var i=0;i<fifthTaskNumber.length;i++){
     }
 }
 console.log("Najwieksza liczba z tablicy to  :"+ max);
-*/
+
 // Zadanie numer 6
 
-var sixthTaskArray = [0, 12, 11, 1, 1, 11, 1, 42, 12, 122, 111];
+var sixthTaskArray = [2123, 12, 11, 1, 21, 111, 2, 42, 123, 0, 111];
 var firstIndex ;
 var Index ;
 
 for(var i=0;i<sixthTaskArray.length;i++){
-    for(var j=1;j<sixthTaskArray.length;j++){
-        if(sixthTaskArray[i]==sixthTaskArray[j]){
-              Index = i;
-              break;
+    console.log("Petla pierwsza : " + sixthTaskArray[i]);
+    for(var j=0;j<sixthTaskArray.length;j++){
+        if(sixthTaskArray[i]==sixthTaskArray[j] && i !=j){
+            console.log("Petla druga : " + sixthTaskArray[j]);
+              Index = j;
         }   
     }
-    break;
 }
+
 console.log("Index : " + Index);
-/*
+
 // Zadanie numer 7
 
 var seventhTaskArray = [1,2,3,4,5,6,7,8,9,10,11];
@@ -91,4 +92,3 @@ for(var i=seventhTaskArray.length;i>=0;i--){
  console.log(seventhTaskArray[i]);   
 }
     
-*/
