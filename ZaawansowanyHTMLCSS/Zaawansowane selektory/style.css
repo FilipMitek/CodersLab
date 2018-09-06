@@ -1,0 +1,74 @@
+#Container{
+    width: 300px;
+    height: 100px;
+    padding: 50px;
+    margin-bottom: 20px
+}
+
+#Container:hover{
+    background-color: cadetblue;
+    border-radius: 20% ;
+    
+}
+#Container:active{
+  background-color: white;
+  border-radius: 20% ;  
+  box-shadow: 0px 0px 89px 0px rgba(0,0,255,1);
+}
+
+a{
+    color: black;
+    text-decoration: none;
+    background-color: yellow;
+    border-radius: 20%;
+    padding: 10px;
+}
+a:visited{
+    background-color: gray;
+}
+a:hover{
+    background-color: green;
+}
+
+
+#avatar{
+    margin-top: 20px;
+    height: 70px;
+    width: 70%;
+
+}
+#leb{
+    margin:10px;
+    height: 50px;
+    width: auto;
+    float: left;
+}
+#text{
+    width: 60%;
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: 3px 3px 10px 0px rgba(0,0,0,60%);
+    padding: 10px;
+    margin: 10px;
+    float: left;
+}
+
+table th, tr, td{
+    border: 1px solid black;
+
+}
+table th{
+    background-color: lightslategray;
+    color:white;
+    font-weight: 250;
+}
+table tr:nth-child(even){
+    background-color: lightskyblue;
+}
+table tr:nth-child(2n+1){
+    background-color: blue;
+}
+
+table td:hover{
+    color: red;
+}
+

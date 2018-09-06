@@ -1,0 +1,19 @@
+div{
+    width: 50%;
+    height: 300px;
+    background-color: black;
+    
+}
+#el{
+    width: 50%;
+    background-color: gray;
+}
+#rem{
+    font-size: 1rem;
+}
+#em{
+    font-size: 4em;
+}
+#px{
+    font-size: 20px;
+}

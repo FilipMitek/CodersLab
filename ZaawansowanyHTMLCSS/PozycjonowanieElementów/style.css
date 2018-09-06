@@ -1,0 +1,121 @@
+#container{
+    width: 800px;
+    border: 1px solid red;
+    height: auto;
+    position: relative;
+    
+    
+}
+div #First, #Second, #Third{
+    height: 200px;
+    width: 30%;
+    background-color: gray;
+    margin:1px ;
+    padding:0px;
+}
+
+
+#First{
+    float: left;
+}
+
+#Second{
+    float: left;
+}
+
+#Third{
+    clear: left;
+}
+
+li{
+    float: left;
+    margin: 5px;
+    list-style: none;
+}
+
+img{
+    position: absolute;
+    right: -50px;
+    bottom: -25px;
+}
+
+#Kolejny{
+    width: 150px;
+    height: 150px;
+    border: 10px solid black;
+    position: relative;
+    margin-top: 50px;
+    padding: 0px;
+}
+.innya, .innyb{
+    position:static;
+}
+
+.innya{
+    z-index: -1;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+.innyb{
+    z-index: -2;
+    position: absolute;
+    left: 20px;
+    top: 40px;
+}
+
+
+#Main{
+    width: 25%;
+    height: 300px;
+    border: 3px solid black;
+    margin: 30px;
+    position: relative;
+    float: left;
+}
+#Main h1{
+    margin-top: 60px;
+    font-size: 19px;
+    text-align: center;
+}
+#Main p{
+    text-align: center;
+    font-size: 13px;
+    padding: 15px;
+}
+
+#Przycisk{
+    color: antiquewhite;
+    text-align: center;
+    background-color: black;
+    width: 140px;
+    height: 35px; 
+    margin: auto;
+
+}
+#Przycisk p{
+    margin-top: 0px;
+    padding-top: 8px;
+}
+#Okrag{
+    width: 45px;
+    height: 45px;
+    border:3px solid black;
+    border-radius: 50%;
+    position: absolute;
+    top: -30px;
+    left: 32%; 
+    background-color: white;
+}
+#mOkrag{
+    width: 30px;
+    height: 30px;
+    background-color: black;
+    border-radius: 50%;
+    position: absolute;
+    top: 7px;
+    left: 7px;
+}
+
+
+

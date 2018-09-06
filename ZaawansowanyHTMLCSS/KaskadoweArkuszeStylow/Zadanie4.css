@@ -1,0 +1,11 @@
+#divID{
+    background-color: red;
+}
+
+div{
+    background-color: blue;
+}
+
+.divClass{
+    background-color: green;
+}

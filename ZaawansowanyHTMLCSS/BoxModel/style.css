@@ -1,0 +1,18 @@
+div{
+    border: 5px solid red;
+    margin: 10px;
+    height: 20px;
+    padding: 5px;
+    width: 40%;
+    display: inline;
+    float: left;
+}
+
+#text{
+    padding: 0px;
+    margin: 0px;
+}
+#element{
+    margin: 50px;
+    display: block;
+}

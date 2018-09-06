@@ -1,0 +1,11 @@
+*{
+    box-sizing: border-box;
+}
+
+div{
+    height: 300px;
+    width: 300px;
+    background-color: gray;
+    box-shadow: 15px 28px 86px -24px rgba(0,0,0,1);
+    box-shadow: -5px 10px 20px -20px outset;
+}

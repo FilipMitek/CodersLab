@@ -181,3 +181,47 @@ function calculateTip(amount,rating){
 }
 
 console.log("Napiwek : " + calculateTip(100,"Zla obsluga"));
+
+
+// Zadania dla chętnych !
+
+// Zadanie Z1
+
+function bruteForce(number){
+    
+    var primeNumber,
+        divCount = 0;
+    
+    
+    
+    for(var i=2;i<=number;i++){
+        if(number%i==0){
+            divCount  +=1;
+        }
+    }
+    if(divCount==1){
+        primeNumber = true;
+    }
+    else primeNumber = false;
+    
+    return primeNumber;
+}
+console.log(bruteForce(99));
+
+//Zadanie Z2
+function PInumber(count){
+    var PIAux = 0,
+        PI = 0,
+        a = 1,
+        b = 3;
+    
+        for(var i =0;i<=count;i++){
+            PIAux+= (1/a - 1/b);
+            PI = 4 * PIAux;
+            a+=4;
+            b+=4;      
+        }
+    return PI;
+}
+
+console.log(PInumber(999));
