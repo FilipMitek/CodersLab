@@ -1,0 +1,61 @@
+*{
+    font-family: serif;
+    font-size: 16px;
+}
+header{
+    background-image: url(night-sky.jpg);
+    height: 40px;
+    width: 100%;
+    
+}
+.container{
+    width: 70%;
+    margin: auto;
+}
+
+header h1{
+    padding: 3px;
+    color: white;
+    font-size: 25px;
+}
+#loty{
+    height: 22px;
+    margin-top: 20px;
+    background-color: darkcyan;
+}
+#loty article{
+    display: inline-block;
+    width: 30%;
+    background-color: darkcyan; 
+    padding-left: 2px;
+    padding-top: 1px;
+}
+#slonce{
+    height: 22px;
+    background-color: blue;
+    color: white;
+    margin-top: 3px;
+    
+}
+#slonce article{
+    display: inline-block;
+    width: 43%;
+    padding-left: 2px;
+    padding-top: 1px;
+}
+
+
+
+
+
+footer p{
+    margin-top: 3px;
+    padding-top:  1px;
+    padding-left: 2px;
+}
+footer{
+    height: 22px;
+    background-color: darkblue;
+    color: white;
+    font-weight:100;
+}
