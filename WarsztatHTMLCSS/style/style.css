@@ -1,0 +1,375 @@
+*{
+    font-family: 'Raleway', sans-serif;
+    
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 80%;
+    height: auto;
+    margin: auto;
+}
+nav{
+    display: inline;
+}
+header{
+    font-size: 25px;
+    background-color: black;
+    color: white;
+    height: 70px;
+}
+section#first{
+    background-image: linear-gradient(white,#e6e6e6 );
+    position: relative;
+}
+.left-arrow{
+    position:absolute;
+    top:45%;
+    left: 3%;
+}
+.right-arrow{
+    position: absolute;
+    top: 45%;
+    right: 3%;
+}
+span{
+    color: #33cccc;
+    font-weight: 900;
+}
+header h3{
+    float: left;
+    padding-top: 20px;
+    font-weight: 100;
+}
+li{
+    float: right;
+    list-style: none;
+    margin-right: 40px;
+    padding-top: 20px;
+}
+#first img{
+    width: 900px;
+}
+section#first article{
+    float: right;
+    width: 45%;
+    margin-top: 100px
+}
+article h2{
+    text-align: center;
+    margin-bottom: 50px;
+    font-size: 50px;
+}
+article p{
+    font-size: 30px;
+    text-align: justify;
+}
+article input{
+    background-color: #33cccc;
+    border-radius: 12px;
+    height: 90px;
+    width: 350px;
+    font-size: 25px;
+    margin: 50px 0px 0px 330px;
+    color: white;
+    letter-spacing: 1.8px;
+}
+#second{
+    margin-left: 200px;
+    margin-top: 50px;
+    height: 540px;
+    
+}
+.second-section-photo, .second-section-photo2 {
+    background-image: url(/CodersLab/WarsztatHTMLCSS/images/box1_img.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 600px;
+    height: 450px;
+    float: left;
+    margin-right: 60px; 
+}
+.second-section-photo2{
+    background-image: url(/CodersLab/WarsztatHTMLCSS/images/box2_img.jpg);
+}
+.photo-opacity{
+    width: 100%;
+    height: 80px;
+    background-color: rgba(255,255,255,60%);
+    margin-top: 200px;
+}
+
+.line{
+    width: 350px;
+    height: 10px;
+    background-color: #33cccc;
+    margin-bottom: 80px;
+}
+.second-section-pharagraph .line{
+    margin-bottom: 20px;
+}
+.photo-opacity p{
+    padding-top: 10px;
+    font-weight: bold;
+}
+.second-section-pharagraph h3{
+    font-size: 30px;
+}
+.second-section-pharagraph{
+    width: 30%;
+    float: left;
+    padding: 20px;
+    border: 1px solid black;
+}
+#third .container, #fourth .container{
+    margin-left: 450px;
+}
+section#third{
+    background-color: #e6e6e6;
+    height: 1300px;
+    z-index: -2;
+}
+   
+}
+#third h2{
+    font-size:0px;
+}
+.basic-plan, .standard-plan, .advance-plan{
+    height: 1000px;
+    width: 610px;
+    border: 4px solid #f2f2f2;
+    float: left;
+    margin-right: 50px;
+    margin-top: 30px;
+    position: relative;
+    background-color: #efefef;    
+}.standard-plan{
+    background-color: #33cccc;
+    border: 4px solid #33cccc;
+    z-index:0;
+}
+.basic-plan, .advance-plan{
+    border:4px solid rgba(179, 179, 179,30%);
+    z-index: 0;
+}
+.standard-plan .round{
+    background-color: #33cccc;
+}
+
+.round{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    border: 4px solid rgba(179, 179, 179,30%);
+    position: absolute;
+    top: -7%;
+    left: 40%;
+    position: relative;
+    background-color: white;
+}
+.small-round{
+     height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: rgba(179, 179, 179,30%);
+    position: relative;
+    top: 23%;
+    left: 23%;
+    
+}
+/* Round with price controll is here */
+
+.pln-msc{
+    width: 300px;
+    height: 300px;
+    border: 4px solid rgba(179, 179, 179,30%);
+    border-radius: 50%;
+    margin: 50px 50px 50px 150px;
+    position: relative;
+    
+}
+.pln-msc .price-main{
+    font-size: 120px;
+    font-weight:900;
+    color: rgba(179, 179, 179,40%);
+    position: absolute;
+    top: 20%;
+    left: 20%;
+}
+.pln-msc .price-rest{
+    font-size: 40px;
+    font-weight:600;
+    color: rgba(179, 179, 179,40%);
+    position: absolute;
+    top: 20%;
+    left: 70%;
+}
+.pln-msc .price-per-mounth{
+    font-size: 30ox;
+    font-weight:600;
+    color: rgba(179, 179, 179,40%);
+    position: absolute;
+    top: 71%;
+    left: 24%;
+}
+.standard-plan .pln-msc .price-rest, .standard-plan .pln-msc .price-main, .standard-plan .pln-msc .price-per-mounth{
+    color: #33cccc;
+}
+.standard-plan .pln-msc{
+    background-color: white;
+}
+/* ---------------------------------------*/
+
+.standard-plan input{
+    background-color: white;
+    color: #33cccc;
+    
+}
+.standard-plan .round{
+    background-color: #33cccc; 
+    border: none;
+}
+.standard-plan .small-round{
+    background-color: white; 
+}
+#third h2{
+    width: 100%;
+    margin-bottom: 0px;
+    font-size: 40px;
+    padding: 8px;
+}
+#third .standard-plan h2{
+    background-color: white;
+}
+#third h2:not(.name){
+    background-color:rgba(179, 179, 179,30%);
+}
+#third .standard-plan h2:not(.zakup-towaru):not(.name){
+    background-color: #939999;
+}
+#third .container #cennik{
+    background-color: #e6e6e6;
+}
+#third .standard-plan .name{
+    background-color: #33cccc;
+}
+#third h2.zakup-towaru{
+    background-color: #939999;
+}
+#third .standard-plan h2.zakup-towaru{
+    background-color: white;
+    
+}
+#third input{
+    position: absolute;
+    top: 80%;
+    left: -34%;
+}
+
+/* SECTION 4 CONTROLL */
+#fourth{
+    clear: both;
+    height: auto;
+}
+article .form{
+    float: left;
+}
+#fourth header{
+    background-color: white;
+    color: black;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+#fourth input:not(.submit){
+    background-color: white;
+    border: 1px solid #33cccc;
+    border-radius: 0px;
+    padding: 5px 0px 5px 10px;
+    width: 85%;
+    height: 60px;
+    margin: 15px 10px 15px 0px;
+    font-size: 40px ;
+}
+#fourth textarea{
+    width: 85%;
+    display: block;
+    height: 300px;
+    padding: 5px 0px 5px 10px;
+    margin: 15px 10px 15px 0px;
+    border: 1px solid #33cccc;
+    font-size: 40px ;
+    padding-left: 10px;
+    vertical-align: middle;
+}
+#fourth .form{
+    width: 50%;
+    float: left;
+}
+#fourth .confirm-form{
+    width: 30%;
+    float: left;
+    margin-left: 25px;;
+}
+
+#fourth input[type='checkbox']{
+    margin: 0px;
+    height: 63px;
+    width: 55px; 
+    margin-top: 5px;
+}
+#fourth input[type='button']{
+   margin: 20px auto 10px 0px;
+    width: 100%;
+}
+#fourth label{
+    font-size: 30px;
+    float: right;
+    width: 90%;
+    color: rgba(179, 179, 179,90%);
+}
+.confirm-form img{
+    filter: brightness(0.9);
+    display: block;
+    margin: 0px auto 10px auto;
+    width: 50%;
+}
+footer{
+    clear: both;
+    padding-top: 40px;
+    padding-bottom: 100px;
+    position: relative;
+}
+footer .copy-right{
+    font-size: 22px;
+    float: left;
+}
+.icon-footer{
+    position: absolute;
+    top: 25px;
+    right: 40%;
+}
+footer p:not(.copy-right){
+    position: absolute;
+    top:30px;;
+    right: 19%;
+}
+footer img{
+    float: left;;
+    margin-left: 10px;
+    width: 45px;
+}
+footer p{
+    font-size: 25px;
+    letter-spacing: 1.5px;
+    color: #939999;
+    float: right;
+}
+footer .span-footer{
+    font-weight: 900;
+    color: gray;
+    font-weight: bold;
+    
+}
+
+/* ---------------------------------------- */
