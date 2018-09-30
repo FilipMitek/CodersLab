@@ -21,8 +21,23 @@ document.addEventListener('DOMContentLoaded',function(){
   info = info.parentElement;
   info = info.parentElement;
   lastInfo = info.lastElementChild;
-  firstInfo = info.firstElementChild;
-
   console.log(lastInfo);
-  console.log(firstInfo);
+  var lastInfoFirstChild = lastInfo.firstElementChild;
+  console.log(lastInfoFirstChild);
+
+  var allChildren = lastInfoFirstChild.children;
+  var elementNumber = Math.round((allChildren.length-1)/2);
+  console.log(elementNumber);
+  console.log(allChildren[elementNumber]);
+
+
+
+
+  var lastEx = document.querySelector('.forth').parentElement;
+  console.log(lastEx);
+  var articleTag = lastEx.querySelector('article p');
+  console.log(articleTag);
+  var firstArticle = articleTag.nextElementSibling;
+  firstArticle = firstArticle.nextElementSibling;
+  console.log(firstArticle);
 });
