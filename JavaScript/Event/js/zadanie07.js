@@ -5,18 +5,15 @@
 document.addEventListener("DOMContentLoaded", function(){
 	document.querySelector('#element1').addEventListener('click', function(e){
 		console.log('Event in #element1 fired!');
-		event.stopPropagation();
 	});
 
 	document.querySelector('#element2').addEventListener('click', function(e){
 		console.log('Event in #element2 fired!');
-		event.stopPropagation();
-
+		e.stopPropagation();
 	});
 
 	document.querySelector('#element3').addEventListener('click', function(e){
 		console.log('Event in #element3 fired!');
-		event.stopPropagation();
 
 	});
 

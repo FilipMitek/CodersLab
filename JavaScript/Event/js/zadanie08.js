@@ -2,14 +2,10 @@
  * Created by Jacek on 2016-01-12.
  */
 
-
-
-document.addEventListener("DOMContentLoaded", function() {
-window.addEventListener('resize', function(event) {
+document.addEventListener('DOMContent',function(){
+  var winWidth = window.innerWidth;
   var winHeight = window.innerHeight;
-  var winWidth =  window.innerWidth;
-  
-  document.getElementById('windowHeight').innerHTML = winHeight
-  document.getElementById('windowWidth').innerHTML = winWidth
-  });
+
+  document.getElementById('windowWidth').innerHTML = winWidth;
+  document.getElementById('windowHeight').innerHTML = winHeight;
 });
